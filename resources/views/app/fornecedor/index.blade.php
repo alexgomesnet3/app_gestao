@@ -1,4 +1,5 @@
-<h3>Principal (view)</h3>
+<h3>Fornecedor Index (view)</h3>
+
 
 <ul>
     <li>

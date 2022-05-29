@@ -24,8 +24,12 @@ Route::get('/contato', 'ContatoController@contato')->name('site.contato');
 
 Route::prefix('/app')->group(function () {
     Route::get('/clientes', function () { return 'Clientes'; })->name('app.clientes');
-    Route::get('/fornecedores', function () { return 'Fornecedores'; })->name('app.fornecedores');
+    Route::get('/fornecedores', 'FornecedorController@index')->name('app.fornecedores');
     Route::get('/produtos', function () { return 'Produtos'; })->name('app.produtos');
+});
+
+Route::fallback(function () {
+    echo 'A rota acessada não existe! <a href="'.route('site.index').'">Clique aqui</a> para retornar a Home Page.';
 });
 
 

@@ -1,5 +1,6 @@
 <h3>Sobre Nós (view)</h3>
 
+
 <ul>
     <li>
         <a href="{{ route('site.index') }}">
@@ -12,15 +13,15 @@
         </a>
     </li>
     <li>
-        <a href="/app/clientes">
+        <a href="{{ route('app.clientes') }}">
             Clientes
         </a>
     </li><li>
-        <a href="/fornecedores">
+        <a href="{{ route('app.fornecedores') }}">
             Fornecedores
         </a>
     </li><li>
-        <a href="/produtos">
+        <a href="{{ route('app.produtos') }}">
             Produtos
         </a>
     </li>
