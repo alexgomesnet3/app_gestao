@@ -7,6 +7,24 @@
         </a>
     </li>
     <li>
+        <a href="/login">
+            Login
+        </a>
+    </li>
+    <li>
+        <a href="/clientes">
+            Clientes
+        </a>
+    </li><li>
+        <a href="/fornecedores">
+            Fornecedores
+        </a>
+    </li><li>
+        <a href="/produtos">
+            Produtos
+        </a>
+    </li>
+    <li>
         <a href="/sobre-nos">
             Sobre Nós
         </a>
